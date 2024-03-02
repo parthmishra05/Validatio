@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validatio|Verify your Email</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+        
+            <span>Validatio</span>
+        </div>
+        <ul>
+            <li><a href="/Home">Home</a></li>
+            <li><a href="/About Us">About us</a></li>
+            <li><a href="/Contact Us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Enter your email to validate</h1>
+            <form action="/submit" method="post" >
+                <!-- Text input for username -->
+                <label for="username">Email:</label>
+                <input  placeholder="Enter your email to validate" type="text" id="username" name="username" required>
+                <br><br>
+            
+              
+            
+                <!-- Submit button -->
+                <input  id ="submitBtn" class="btn" type="submit" value="Submit">
+              </form>
+        </div>
+        <div id="resultCont" class="container">
+            <h2>Results</h2>
+        </div>
+    </main>
+    <footer>Copyright Validatio.com|All rights reserved</footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
